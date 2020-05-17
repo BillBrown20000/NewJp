@@ -8,6 +8,7 @@ import { LogoComponent } from './logo/logo.component';
 import { LogoTemplateComponent } from './logo-template/logo-template.component';
 import { FooterComponent } from './footer/footer.component';
 import { GrayHeaderComponent } from './gray-header/gray-header.component';
+import { OnlineAcademyComponent } from './online-academy/online-academy.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { GrayHeaderComponent } from './gray-header/gray-header.component';
     LogoTemplateComponent,
     FooterComponent,
     GrayHeaderComponent,
+    OnlineAcademyComponent,
   ],
   imports: [
     BrowserModule,
