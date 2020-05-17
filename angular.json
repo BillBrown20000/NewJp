@@ -25,7 +25,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "../node_modules/bootstrap/dist/css/bootstrap.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "JpmcWebsite"
+    }
+  },
+  "defaultProject": "JpmcWebsite",
+  "cli": {
+    "analytics": "c245832d-cfdc-4422-bf04-2542078cd8ff"
+  }
 }
