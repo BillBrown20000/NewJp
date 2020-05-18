@@ -9,6 +9,8 @@ import { LogoTemplateComponent } from './logo-template/logo-template.component';
 import { FooterComponent } from './footer/footer.component';
 import { GrayHeaderComponent } from './gray-header/gray-header.component';
 import { OnlineAcademyComponent } from './online-academy/online-academy.component';
+import { NavbarTempleteComponent } from './navbar-templete/navbar-templete.component';
+import { NavbarHeaderTopComponent } from './navbar-header-top/navbar-header-top.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { OnlineAcademyComponent } from './online-academy/online-academy.componen
     FooterComponent,
     GrayHeaderComponent,
     OnlineAcademyComponent,
+    NavbarTempleteComponent,
+    NavbarHeaderTopComponent,
   ],
   imports: [
     BrowserModule,
