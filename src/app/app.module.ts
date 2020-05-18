@@ -13,6 +13,12 @@ import { OnlineAcademyComponent } from './online-academy/online-academy.componen
 import { GradsComponentComponent } from './grads-component/grads-component.component';
 import { GradsRoutingComponentComponent } from './grads-routing-component/grads-routing-component.component';
 import { HeaderComponent } from './header/header.component';
+import { GradsComponentComponent } from './grads-component/grads-component.component';
+import { GradsRoutingComponentComponent } from './grads-routing-component/grads-routing-component.component';
+import { NavbarHeaderTopComponent } from './navbar-header-top/navbar-header-top.component';
+import { NavbarTempleteComponent } from './navbar-templete/navbar-templete.component';
+import { ButtonTempleteComponent } from './button-templete/button-templete.component';
+import { CardsTemplateComponent } from './cards-template/cards-template.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +31,12 @@ import { HeaderComponent } from './header/header.component';
     GradsComponentComponent,
     GradsRoutingComponentComponent,
     HeaderComponent,
+    NavbarHeaderTopComponent,
+    NavbarTempleteComponent,
+    ButtonTempleteComponent,
+    GradsComponentComponent,
+    GradsRoutingComponentComponent,
+    CardsTemplateComponent,
   ],
   imports: [
     BrowserModule,
