@@ -19,6 +19,8 @@ import { NavbarHeaderTopComponent } from './navbar-header-top/navbar-header-top.
 import { NavbarTempleteComponent } from './navbar-templete/navbar-templete.component';
 import { ButtonTempleteComponent } from './button-templete/button-templete.component';
 import { CardsTemplateComponent } from './cards-template/cards-template.component';
+import { NavbarTempleteComponent } from './navbar-templete/navbar-templete.component';
+import { NavbarHeaderTopComponent } from './navbar-header-top/navbar-header-top.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { CardsTemplateComponent } from './cards-template/cards-template.componen
     GradsComponentComponent,
     GradsRoutingComponentComponent,
     CardsTemplateComponent,
+    NavbarTempleteComponent,
+    NavbarHeaderTopComponent,
   ],
   imports: [
     BrowserModule,
